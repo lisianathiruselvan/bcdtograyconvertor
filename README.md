@@ -27,18 +27,19 @@ The code converter circuit for BCD to gray code is drawn as below from the obtai
 
 
 # PROCEDURE
-
+```
 create a project with required entities
 craete a module
 run the module
 create university program for timing diagram
 give the respective inputs for timing diagram and obtain the results.
 
+```
 
 # PROGRAM
 Developed by T.LISIANA
 Reg No:22006964
-
+```
 module bgc(b,g);
 input [3:0]b;
 output [3:0]g;
@@ -49,7 +50,7 @@ assign g[1]=b[2]^b[1];
 assign g[0]=b[1]^b[0];
 
 endmodule
-
+```
 
 # LOGIC DIAGRAM
 
